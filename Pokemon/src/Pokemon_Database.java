@@ -103,15 +103,6 @@ public class Pokemon_Database
 		br.close();
 	}
 
-	/*
-	public static Pokemon_Constructor Dragapult()
-	{
-		int[] Dragapult_Base_Stats = {88, 120, 75, 100, 75, 142};
-		Pokemon_Constructor Dragapult = new Pokemon_Constructor("Dragapult", Pokemon_Type_Database.dragon(), Pokemon_Type_Database.ghost(), "Clear Body", "Infiltrator", "Cursed Body", Dragapult_Base_Stats);
-		return Dragapult;
-	}
-	*/
-
 	public static ArrayList<Pokemon_Constructor> createAllPokemon() throws IOException
 	{
 		ArrayList<Pokemon_Constructor> All_Pokemon = new ArrayList<Pokemon_Constructor>();

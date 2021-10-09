@@ -2,14 +2,11 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.stream.DoubleStream;
 
 public class Battle_Constructor 
 {
 	public Battle_Constructor()
-	{
-		
-	}
+	{}
 	
 	public static void main(String[] args) throws IOException
 	{
