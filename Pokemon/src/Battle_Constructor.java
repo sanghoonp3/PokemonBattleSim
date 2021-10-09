@@ -28,7 +28,7 @@ public class Battle_Constructor
 			System.out.println(tyranitar.getBaseStats()[i]);
 		}		
 
-		System.out.print("\n");
+		System.out.println();
 		
 		double testDamage = baseDamageCalculator(Integer.parseInt(attack.getBasePower()), attack, dragapult, tyranitar);
 		System.out.println(testDamage);
